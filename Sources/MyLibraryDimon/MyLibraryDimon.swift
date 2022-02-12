@@ -3,8 +3,11 @@ public struct MyLibraryDimon {
 
     public init() {
     }
-    public func seyHello() -> String {
+    public func sayHello() -> String {
         return text
+    }
+    public func sayBye() {
+        print("Bye")
     }
     
 }
