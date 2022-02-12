@@ -1,6 +1,10 @@
 public struct MyLibraryDimon {
-    public private(set) var text = "Hello, World!"
+    private let text = "Hello, World!"
 
     public init() {
     }
+    public func seyHello() -> String {
+        return text
+    }
+    
 }
